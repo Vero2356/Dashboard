@@ -1,73 +1,50 @@
-# React + TypeScript + Vite
+# This project is about creating my personal project while expanding my knowledge
+---
+## Current thing this dashboard should be able to do
+[] weather at your location
+[] access to your google calendar
+[] daily task manager
+[] supplement manager
+[] health check via connection to google health or similar
+[] youtuber check
+[] youtube/spotify activity check
+[] project manager
+[] finance manager
+[] vision board with random pictures of your/mine choosing from database
+[] goal list
+[] news manager on things of your choosing like events etc.
+[] specific setting for API keys etc
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
+## Potentional features
 
-Currently, two official plugins are available:
+[] maybe in future AI assitant for personal overview of whats happening
+[] personalizations
+  - [] custom colors
+  - [] shopping list
+  - [] custom names so it can call you something more basic than "hello how are you" but something more like --> "Hey Peter what are working on today"
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## Styles
+- Minimalistic
+- Mainly dark/ligh mode
+- Round corners
+- Apple like design
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+### Study goals:
+- learn git
+- learn more stacks I can use
+- expand as app for self-improvement
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
-
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+---
+# Stack
+## Front end
+- React with native expo *(so it can be turned into actual mobile/desktop app)*
+## backend
+- PHP symphony
+## Database
+- basic SQL database nothing special here
+---
