@@ -1,3 +1,21 @@
+:root {
+  --bg-deep: #06141B; /*Background color*/
+  --bg-sidebar: #11212D;
+  --card-dark: #253745;
+  --card-light: #4A5C6A;
+  --text-muted: #9BA8AB;
+  --text-primary: #CCD0CF;
+}
+
 * {
-    font-family: 'Inter', sans-serif;
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+
+body {
+  background-color: #06141B;
+  height: 100vh;
+  overflow: hidden;
 }

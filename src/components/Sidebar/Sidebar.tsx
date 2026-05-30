@@ -1,4 +1,4 @@
-import './Sidebar.css'
+import styles from './Sidebar.module.css'
 import { Home, FolderOpen, Target, Calendar, Image, Newspaper, CheckSquare, DollarSign, Heart, ShoppingCart, Settings } from 'lucide-react'
 
 const navItems = [
@@ -16,9 +16,10 @@ const navItems = [
 
 export default function Sidebar() {
   return (
-    <nav className="sidebar">
+    <nav className={styles.sidebar}>
+      <h2>DASHBOARD</h2>
 
-      <ul className="sidebar-nav">
+      <ul className={styles['sidebar-nav']}>
         {navItems.map(item => (
           <li key={item.label}>
             <item.icon size={18} />
@@ -27,7 +28,7 @@ export default function Sidebar() {
         ))}
       </ul>
 
-      <ul className="sidebar-footer">
+      <ul className={styles['sidebar-footer']}>
         <li>
           <Settings size={18} />
           <span>Settings</span>

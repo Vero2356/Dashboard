@@ -1,0 +1,31 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    width: 100%;
+    border: solid 1px var(--text-muted);
+    border-radius: 12px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 8px;
+}
+
+.greetings {
+    color: var(--text-primary);
+    padding: 1.5rem;
+}
+
+.time{
+    color: var(--text-muted);
+    display: flex;
+    justify-content: right;
+    align-self: center;
+    font-size: 2rem;
+    font-weight: 500;
+    padding: 1rem;
+    padding-right: 3rem;
+}
