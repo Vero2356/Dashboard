@@ -7,10 +7,17 @@ function App() {
   return (
     <div className='app-shell'>
       <Sidebar />
-    <main className='main-content'>
-      <Header />
-      <Weather />
-    </main>
+      <main className='main-content'>
+        <Header />
+        <div className='widget-row1'>
+          <div className='row1-1'>
+            
+          </div>
+          <div className='row1-2'>
+          <Weather />
+          </div>
+        </div>
+      </main>
     </div>
   )
 }
